@@ -1,0 +1,11 @@
+language: php
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "f89e0a18-d184-4790-91f5-8c4b549824ce"
+  app: test-delivery
+  
+notifications:
+  email:
+    - herrera.julien@gmail.com
